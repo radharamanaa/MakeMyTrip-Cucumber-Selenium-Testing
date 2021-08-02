@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import java.time.Duration;
 
 public class Utility {
-    public synchronized static void waitTillSelectorVisible(WebDriver driver, String selector, int seconds) {
+    public synchronized static void waitTillSelectorClickable(WebDriver driver, String selector, int seconds) {
         FluentWait<WebDriver> wait = new FluentWait<>(driver);
         wait.withTimeout(Duration.ofSeconds(seconds));
         wait.pollingEvery(Duration.ofMillis(500));
@@ -18,4 +18,13 @@ public class Utility {
         WebElement selectVis = driver.findElement(By.cssSelector(selector));
         wait.until(ExpectedConditions.elementToBeClickable(selectVis));
     }
+    public synchronized static void waitTillSelectorClickable(WebDriver driver, By selector, int seconds) {
+        FluentWait<WebDriver> wait = new FluentWait<>(driver);
+        wait.withTimeout(Duration.ofSeconds(seconds));
+        wait.pollingEvery(Duration.ofMillis(500));
+        wait.ignoring(NoSuchElementException.class);
+        WebElement selectVis = driver.findElement(selector);
+        wait.until(ExpectedConditions.elementToBeClickable(selectVis));
+    }
+
 }

@@ -8,6 +8,8 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class DefaultCitiesTest {
     private static WebDriver driver;
     private MakeMyTripLandingPO landingPO;
@@ -15,6 +17,7 @@ public class DefaultCitiesTest {
     @Given("User is on MakeMyTrip landing page")
     public void user_is_on_make_my_trip_landing_page() {
         driver = Configuration.getDriver();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertNotNull(driver);
         driver.get(Configuration.getBaseURL());
         Assert.assertTrue(driver.getTitle()
@@ -37,11 +40,11 @@ public class DefaultCitiesTest {
     }
     @Then("user verifies FROM city to be {string}")
     public void user_verifies_from_city_to_be(String string) {
-        Assert.assertEquals(landingPO.getFromCityDOMId(),string);
+        Assert.assertEquals(landingPO.getFromCityCLickSelectorStr(),string);
     }
     @Then("TO city to be {string}")
     public void to_city_to_be(String string) {
-        Assert.assertEquals(landingPO.getToCity(),string);
+        Assert.assertEquals(landingPO.getToCityStr(),string);
     }
 
 }

@@ -34,9 +34,8 @@ Feature: Round Trip on MakeMy Trip
     Examples:
       | fromCity | suggestedFromCity | toCity | suggestedToCity |
       | Goa      | Goa               | Miami  | Miami           |
-      | Hyderabad| Hyderabad           | Florida| Florida       |
 
-    Scenario: User cannot select RETURN date which is before DEPARTURE date
-      Given User visits landing page
-      When user selects a DEPARTURE date
-      Then user cannot select a RETURN date prior to DEPARTURE date
+#    Scenario: User cannot select RETURN date which is before DEPARTURE date
+#      Given User visits landing page
+#      When user selects a DEPARTURE date
+#      Then user cannot select a RETURN date prior to DEPARTURE date
