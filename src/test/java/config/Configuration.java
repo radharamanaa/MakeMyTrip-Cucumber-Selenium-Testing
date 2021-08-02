@@ -23,6 +23,9 @@ public class Configuration {
     public static String getBaseURL(){
         return props.getProperty("baseUrl");
     }
+    public static String getLandingPageTitle(){
+        return props.getProperty("pageTitle");
+    }
 
     public Configuration() {
         if(isInitialized) return;//since this constructor is called multiple times

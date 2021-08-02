@@ -37,7 +37,7 @@ public class DefaultCitiesTest {
     }
     @Then("user verifies FROM city to be {string}")
     public void user_verifies_from_city_to_be(String string) {
-        Assert.assertEquals(landingPO.getFromCity(),string);
+        Assert.assertEquals(landingPO.getFromCityDOMId(),string);
     }
     @Then("TO city to be {string}")
     public void to_city_to_be(String string) {
