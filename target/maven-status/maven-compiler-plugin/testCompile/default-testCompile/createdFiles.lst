@@ -1,6 +1,7 @@
 makemytrip/stepdefinitions/RevisitingAndVerificationTest.class
 makemytrip/stepdefinitions/DatesVerificationTest.class
-config/Configuration.class
 makemytrip/RunCucumberTest.class
+testrail/TestRailConfig.class
+config/InitialConfig.class
 makemytrip/stepdefinitions/DefaultCitiesTest.class
 makemytrip/stepdefinitions/WorkflowRoundTripFlight.class

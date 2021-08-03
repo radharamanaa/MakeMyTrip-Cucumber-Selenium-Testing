@@ -1,7 +1,8 @@
 package makemytrip.stepdefinitions;
 
 import com.zemoso.MakeMyTripLandingPO;
-import config.Configuration;
+import config.InitialConfig;
+import testrail.TestRailConfig;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +11,7 @@ import java.time.LocalDate;
 import java.util.concurrent.TimeUnit;
 
 public class WorkflowRoundTripFlight{
+    public static boolean result;
     private WebDriver driver;
     private MakeMyTripLandingPO landingPO;
     private String fromCity;
@@ -19,11 +21,11 @@ public class WorkflowRoundTripFlight{
 
     @Given("User visits landing page")
     public void user_visits_landing_page() {
-        driver = Configuration.getDriver();
+        driver = InitialConfig.getDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertNotNull(driver);
-        driver.get(Configuration.getBaseURL());
-        driver.getTitle().equals(Configuration.getLandingPageTitle());
+        driver.get(InitialConfig.getBaseURL());
+        driver.getTitle().equals(InitialConfig.getLandingPageTitle());
         assert true;
     }
     @When("user enters Goa in FROM field")
@@ -59,18 +61,23 @@ public class WorkflowRoundTripFlight{
     }
     @Then("user verifies Goa in FROM field")
     public void user_verifies_goa_in_from_field() {
-        Assert.assertTrue(landingPO.getFromCityCLickSelectorStr().equals(fromCity));
+        result = landingPO.getFromCityCLickSelectorStr().equals(fromCity);
+        Assert.assertTrue(result);
     }
     @Then("user verifies Miami in TO field")
     public void user_verifies_miami_in_to_field() {
-        Assert.assertTrue(landingPO.getToCityStr().equals(toCity));
+        result = result && landingPO.getToCityStr().equals(toCity);
+        Assert.assertTrue(result);
     }
     @Then("user verifies tomorrows date in DEPARTURE date")
     public void user_verifies_tomorrows_date_in_departure_date() {
-        Assert.assertTrue(landingPO.isDepartureDateValue(tomorrow));
+        result = result && landingPO.isDepartureDateValue(tomorrow);
+        Assert.assertTrue(result);
     }
     @Then("user verifies day after tomorrows date in RETURN field")
     public void user_verifies_day_after_tomorrows_date_in_return_field() {
-        Assert.assertTrue(landingPO.isReturnDateValue(dayAfterTom));
+        result = result && landingPO.isReturnDateValue(dayAfterTom);
+        TestRailConfig.addTestResult(InitialConfig.getRoundTripWorkFlow(), result);
+        Assert.assertTrue(result);
     }
 }

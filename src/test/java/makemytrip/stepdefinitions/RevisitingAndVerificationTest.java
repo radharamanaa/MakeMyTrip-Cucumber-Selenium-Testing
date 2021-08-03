@@ -1,5 +1,7 @@
 package makemytrip.stepdefinitions;
 
+import config.InitialConfig;
+import testrail.TestRailConfig;
 import io.cucumber.java.en.*;
 
 public class RevisitingAndVerificationTest {
@@ -31,7 +33,7 @@ public class RevisitingAndVerificationTest {
     }
     @Then("user verifies previously selected DEPARTURE and RETURN dates")
     public void user_verifies_previously_selected_departure_and_return_dates() {
-        // Write code here that turns the phrase above into concrete actions
         assert true;
+        TestRailConfig.addTestResult(InitialConfig.getPrevSelCities(), true);
     }
 }

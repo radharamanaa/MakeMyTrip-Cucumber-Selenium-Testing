@@ -1,7 +1,8 @@
 package makemytrip.stepdefinitions;
 
 import com.zemoso.MakeMyTripLandingPO;
-import config.Configuration;
+import config.InitialConfig;
+import testrail.TestRailConfig;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
@@ -12,14 +13,15 @@ import java.util.concurrent.TimeUnit;
 
 public class DefaultCitiesTest {
     private static WebDriver driver;
+    private static boolean result;
     private MakeMyTripLandingPO landingPO;
 
     @Given("User is on MakeMyTrip landing page")
     public void user_is_on_make_my_trip_landing_page() {
-        driver = Configuration.getDriver();
+        driver = InitialConfig.getDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertNotNull(driver);
-        driver.get(Configuration.getBaseURL());
+        driver.get(InitialConfig.getBaseURL());
         Assert.assertTrue(driver.getTitle()
                 .equals("MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday"));
     }
@@ -40,11 +42,16 @@ public class DefaultCitiesTest {
     }
     @Then("user verifies FROM city to be {string}")
     public void user_verifies_from_city_to_be(String string) {
-        Assert.assertEquals(landingPO.getFromCityCLickSelectorStr(),string);
+        final String fromCityCLickSelectorStr = landingPO.getFromCityCLickSelectorStr();
+        result = fromCityCLickSelectorStr.equals(string);
+        Assert.assertEquals(fromCityCLickSelectorStr,string);
     }
     @Then("TO city to be {string}")
     public void to_city_to_be(String string) {
-        Assert.assertEquals(landingPO.getToCityStr(),string);
+        final String toCityStr = landingPO.getToCityStr();
+        result = result && toCityStr.equals(string);
+        TestRailConfig.addTestResult(InitialConfig.getDefaultCities(), result);
+        Assert.assertEquals(toCityStr,string);
     }
 
 }

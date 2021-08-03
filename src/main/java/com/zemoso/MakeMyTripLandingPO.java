@@ -35,8 +35,8 @@ public class MakeMyTripLandingPO extends BasePagePO {
         if (!elements.isEmpty()) {
             elements.stream().findFirst().get().click();
         }
-
     }
+
     private boolean selectDateFromPicker(LocalDate date) {
         int dayOfMonth = date.getDayOfMonth();
         String month = date.getMonth().name();

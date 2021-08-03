@@ -1,6 +1,7 @@
 /home/abhim/ProjectsGen/make-my-trip/MakeMyTrip2/src/test/java/makemytrip/stepdefinitions/WorkflowRoundTripFlight.java
+/home/abhim/ProjectsGen/make-my-trip/MakeMyTrip2/src/test/java/config/InitialConfig.java
+/home/abhim/ProjectsGen/make-my-trip/MakeMyTrip2/src/test/java/testrail/TestRailConfig.java
 /home/abhim/ProjectsGen/make-my-trip/MakeMyTrip2/src/test/java/makemytrip/stepdefinitions/DefaultCitiesTest.java
 /home/abhim/ProjectsGen/make-my-trip/MakeMyTrip2/src/test/java/makemytrip/stepdefinitions/DatesVerificationTest.java
 /home/abhim/ProjectsGen/make-my-trip/MakeMyTrip2/src/test/java/makemytrip/stepdefinitions/RevisitingAndVerificationTest.java
-/home/abhim/ProjectsGen/make-my-trip/MakeMyTrip2/src/test/java/config/Configuration.java
 /home/abhim/ProjectsGen/make-my-trip/MakeMyTrip2/src/test/java/makemytrip/RunCucumberTest.java
