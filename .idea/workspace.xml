@@ -24,18 +24,10 @@
       <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/7/6/765bd6873eb86d31bdea6ce6cd47c60a4e4d4718" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/a/1/a1d415cba948cf3ca70d9cdfb2655f18b22327fa" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/d/8/d850cdf87a415d97a77a53d2b7161746d2dbd595" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/DatesVerificationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/RevisitingAndVerificationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zemoso/MakeMyTripLandingPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zemoso/MakeMyTripLandingPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zemoso/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zemoso/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/makemytrip/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/makemytrip/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/DefaultCitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/DefaultCitiesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/WorkflowRoundTripFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/WorkflowRoundTripFlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/makemytrip/RoundTrip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/makemytrip/RoundTrip.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/makemytrip/RoundTrip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/makemytrip/RoundTrip.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-makemytrip.RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-makemytrip.RunCucumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/makemytrip.RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/makemytrip.RunCucumberTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MakeMyTripFeatures/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MakeMyTripFeatures/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MakeMyTripFeatures/.idea/compiler.xml" beforeDir="false" />
