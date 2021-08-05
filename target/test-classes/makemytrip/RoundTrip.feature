@@ -13,7 +13,7 @@ Feature: Round Trip on MakeMy Trip
     Given User visits landing page
     When user selects FROM and TO city
     And user selects DEPARTURE and RETURN dates
-    And navigates to any other domain
+    And navigates to any other webpage
     And navigates back to makemytrip landing page again
     Then user verifies previously selected FROM and TO cities
     And user verifies previously selected DEPARTURE and RETURN dates

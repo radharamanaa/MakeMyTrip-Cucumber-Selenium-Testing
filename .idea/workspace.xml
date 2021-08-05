@@ -12,32 +12,39 @@
       <change afterPath="$PROJECT_DIR$/../../Cucumber Group Conv/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Cucumber Group Conv/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Cucumber Group Conv/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-ci/karate-todoist-ci/src/test/java/examples/hooks/AfterScenario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-ci/karate-todoist-ci/src/test/java/examples/users/AfterScenarioRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-ci/karate-todoist-ci/src/test/java/examples/users/labels.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-ci/karate-todoist-ci/src/test/java/examples/users/tasks.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../karate-git/.idea/karate-git.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/runConfigurations.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/0/a/0a9b391166fd953b73f9529ddc499f8aa874d069" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/2/a/2ae888c9901c06c694b979469b1b33abec6999c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/2/d/2d9fff3bc8db484c30bc991acd49f18990e049f6" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/4/0/406a207af732e412f7033017439d3e97ce3c48da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/5/2/522a7a4e21649af06297e31a9e33f13bb4fd3022" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/6/8/68b1f957459ae195ef3a0a8b613ea6984dcbef4e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testrail/TestRailConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/539ee3031ceeae49fe8681a00026010218a4dc85" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/588fee87b5b6a07f246a3e226c26f45fe7f70fc3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6f07b2803e905beca96af0918a327ae45b248b4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6f07b2803e905beca96af0918a327ae45b248b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/7/6/765bd6873eb86d31bdea6ce6cd47c60a4e4d4718" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/a/1/a1d415cba948cf3ca70d9cdfb2655f18b22327fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-git/SeleniumAmazonAssgn/.idea/sonarlint/issuestore/d/8/d850cdf87a415d97a77a53d2b7161746d2dbd595" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-todoist-fin/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-todoist-fin/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-todoist-fin/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-todoist-fin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-todoist-fin/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../karate-todoist-fin/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c689ee017e83f3a6a98599911bb76032919197b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6f07b2803e905beca96af0918a327ae45b248b4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zemoso/MakeMyTripLandingPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zemoso/MakeMyTripLandingPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/InitialConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/DefaultCitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/DefaultCitiesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/RevisitingAndVerificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/RevisitingAndVerificationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/WorkflowRoundTripFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/makemytrip/stepdefinitions/WorkflowRoundTripFlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cucumber.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/makemytrip/OneSideTrip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/makemytrip/OneSideTrip.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/makemytrip/RoundTrip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/makemytrip/RoundTrip.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-makemytrip.RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-makemytrip.RunCucumberTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/makemytrip.RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/makemytrip.RunCucumberTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/makemytrip/OneSideTrip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/makemytrip/OneSideTrip.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/makemytrip/RoundTrip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/makemytrip/RoundTrip.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MakeMyTripFeatures/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MakeMyTripFeatures/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MakeMyTripFeatures/.idea/compiler.xml" beforeDir="false" />
@@ -90,7 +97,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/makemytrip" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../karate-todoist-fin/pom.xml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -314,6 +321,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MakeMyTrip2$Feature__RoundTrip.ic" NAME="Feature: RoundTrip Coverage Results" MODIFIED="1628007006032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

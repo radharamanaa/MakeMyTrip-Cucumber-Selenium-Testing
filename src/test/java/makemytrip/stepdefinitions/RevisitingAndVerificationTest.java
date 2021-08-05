@@ -16,8 +16,8 @@ public class RevisitingAndVerificationTest {
         // Write code here that turns the phrase above into concrete actions
         assert true;
     }
-    @When("navigates to any other domain")
-    public void navigates_to_any_other_domain() {
+    @When("navigates to any other webpage")
+    public void navigates_to_any_other_webp() {
         // Write code here that turns the phrase above into concrete actions
         assert true;
     }

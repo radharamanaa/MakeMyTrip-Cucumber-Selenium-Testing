@@ -22,11 +22,11 @@ Feature: One Side Make my trip
      Given "ONEWAY" option is selected
      When User enters <sourceCity>
      Then User verifies <sourceCity> Airport appearance in dropdown list
-     When User clicks on TO desination field and enters <destinationCity>
+     When User clicks on TO destination field and enters <destinationCity>
      Then User verifies <destinationCity> to be present in the drop down
      When user clicks on Departure field
-     Then user verifies a that a calendar appears
-     When user selects a future date
+     Then user verifies departure date
+     When user selects a return date
      Then user verifies the date and day shows, is as user selected
      Examples:
        | sourceCity | destinationCity|
@@ -55,25 +55,6 @@ Feature: One Side Make my trip
     | Premium Economy |
     | Business |
     | First Class |
-
-  Scenario: User is shown delhi and bangalore as default FROM and TO for first time indian user
-    Given "ONEWAY" option is selected
-    When user is from India
-    Then user verifies FROM city to be "Delhi"
-    And TO city to be "Bangalore"
-    And RETURN date to be day after tomorrow
-
-  Scenario: User is the only traveller by default
-    Given "ONEWAY" option is selected
-    Then user verifies 1 traveller showing in TRAVELLERS & CLASS field
-    And class is Economy
-
-  Scenario Outline: Verify details listed in FROM field after selection
-    Given "ONEWAY" option is selected
-    When User enters <userReqLoc> in FROM field
-    And User selects <actualReqLoc> from dropdown options
-    Then user verifies Airport code to be <airportCode> as airport code
-    And user verifies <airportName>  in FROM field
 
     Examples:
     | userReqLoc |actualReqLoc | airportCode | airportName |
